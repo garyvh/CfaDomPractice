@@ -10,12 +10,12 @@ nav > div {
     margin: 25px;
 }
 a.menuLink:link{
-    color: #666666;
+    color: blue;
     font-family: sans-serif;
     font-size: 1.5em;
 }
 a.menuLink:visited{
-    color: #555555;
+    color: red;
     font-family: sans-serif;
     font-size: 1.5em;
 }
@@ -39,4 +39,10 @@ button#darkMode{
     padding: 5px;
     color: white;
     font-family: sans-serif;
+}
+.menuitem:hover {
+    background-color: rgb(0, 222, 222);
+}
+.menuitem a {
+    text-decoration: none;
 }
